@@ -1,0 +1,79 @@
+#messenger {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+    background-color: white;
+    #messengerSearchBar {
+        width: 100%;
+        height: 40px;
+        background-color: #f0efef;
+        border: 1px solid #d0d0d0;
+    }
+    #messegedPeopleListContainer {
+        width: 180px;
+        float: left;
+        height: 360px;
+        overflow-y: auto;
+        background-color: #f0efef;
+        border: 1px solid #d0d0d0;
+        .leftListUserContainer {
+            width: 100%;
+            height: 50px;
+            // background-color: white;
+            display: block;
+            margin-top: 5px;
+            border-bottom: 1px solid lightgray;
+            cursor: pointer;
+            &:hover {
+                background-color: white;
+            }
+            .leftListProfilePicContainer {
+                width: 30px;
+                height: 30px;
+                overflow: hidden;
+                border-radius: 50%;
+                float: left;
+                margin-left: 5px;
+                margin-top: 5px;
+                border: 1px solid #d000d0;
+                .leftListProfilePic {
+                    height: 100%;
+                }
+            }
+            .restContentContainer {
+                float: left;
+                .anotherUserUsername {
+                    display: block;
+                    font-size: 14px;
+                    position: relative;
+                    left: 5px;
+                }
+                .leftListMessageContainer {
+                    display: block;
+                    position: relative;
+                    left: 10px;
+                    i {
+                        float: left;
+                        position: relative;
+                        top: 3px;
+                    }
+                    .leftListMessage {
+                        float: left;
+                        position: relative;
+                        top: -2px;
+                        left: 5px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    #chatContainer {
+        width: 320px;
+        height: 360px;
+        float: left;
+        display: inline-block;
+    }
+}

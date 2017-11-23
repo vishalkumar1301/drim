@@ -1,0 +1,43 @@
+header {
+    background-color: #262626;
+    height: 60px;
+    padding: 10px;
+    border-bottom: 10px solid #1e1e1e;
+    text-align: center;
+    position: relative;
+    #logo {
+        font-family: sans-serif;
+        font-size: 36px;
+        color: red;
+        letter-spacing: 5px;
+    }
+    #signupSigninMessage {
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        label {
+            font-family: sans-serif;
+            font-size: 16px;
+            color: white;
+            line-height: 60px;
+            margin-right: 20px;
+            a {
+                color: red;
+                font-size: 18px;
+                text-decoration: none;
+                margin-left: 10px;
+                border: 1px solid #af0000;
+                padding: 10px;
+            }
+        }
+    }
+}
+footer {
+    height: 60px;
+    width: 100%;
+    background-color: #1e1e1e;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}

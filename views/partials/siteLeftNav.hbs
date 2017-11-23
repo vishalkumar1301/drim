@@ -1,0 +1,79 @@
+<div id="leftNavContainer">
+  <div id="leftNav">
+    <div class="leftNavElements">
+      <div class="alignFonts">
+        <a href="/">
+            <i class="fa fa-hashtag fa-1x"></i>
+            <label>wall</label>
+        </a>
+      </div>
+    </div>
+    <div class="leftNavElements">
+      <div class="alignFonts">
+        <a href="/home/{{username}}">
+        <i class="fa fa-home fa-1x"></i>
+        <label>home</label>
+        </a>
+      </div>
+    </div>
+    <div class="leftNavElements" id="newPost" data-toggle="modal" data-target="#postModal">
+      <div class="alignFonts">
+        <i class="fa fa-rocket fa-1x"></i>
+        <label>new post</label>
+      </div>
+    </div>
+    <div class="leftNavElements">
+      <div class="alignFonts">
+        <i class="fa fa-camera-retro fa-1x"></i>
+        <label>gallery</label>
+      </div>
+    </div>
+    <div class="leftNavElements">
+      <div class="alignFonts">
+        <i class="fa fa-users fa-1x"></i>
+        <label>followers</label>
+      </div>
+    </div>
+    <div class="leftNavElements">
+      <div class="alignFonts">
+        <i class="fa fa-envelope-o fa-1x"></i>
+        <label>messages</label>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="postModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">new post</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form id="postForm">
+        <input type="file" id="canvasFile" name="canvasFile" hidden="hidden">
+        <div class="modal-body">
+          <textarea id="postTextArea" placeholder="tell about sketch" name="postTextArea" maxlength="100"></textarea>
+          <div id="canvasContainer">
+          </div>
+          <div id="controlsContainer">
+            <div id="secondaryControlsContainer"></div>
+            <div id="primaryControlsContainer">
+              <!-- <button type="button" id="startCameraButton" class="btn btn-primary">Take pic</button>
+              <button type="button" id="drawButton" class="btn btn-primary">Draw</button> -->
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <input type="submit" id="submitthepost" class="btn btn-primary" value="Post"/>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

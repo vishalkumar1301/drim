@@ -1,0 +1,60 @@
+#leftNavContainer {
+  width: 100%; }
+  #leftNavContainer #leftNav {
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0px 0px 5px #dadada;
+    padding: 10px; }
+    #leftNavContainer #leftNav .leftNavElements {
+      box-sizing: border-box;
+      width: 100%;
+      padding-top: 5px;
+      margin-top: 10px; }
+      #leftNavContainer #leftNav .leftNavElements:hover {
+        border-bottom: 1px solid #d000d0; }
+
+#postForm #postTextArea, #postForm #profilePicTextArea, #profilePicForm #postTextArea, #profilePicForm #profilePicTextArea {
+  width: 450px;
+  display: block;
+  margin: auto;
+  border: none; }
+#postForm #canvasContainer, #postForm #profilePicCanvasContainer, #profilePicForm #canvasContainer, #profilePicForm #profilePicCanvasContainer {
+  border: 1px solid #dadada;
+  border-radius: 5px; }
+#postForm #controlsContainer, #postForm #profilePicControlsContainer, #profilePicForm #controlsContainer, #profilePicForm #profilePicControlsContainer {
+  width: 450px;
+  display: block;
+  margin: auto;
+  margin-top: 15px; }
+  #postForm #controlsContainer #secondaryControlsContainer, #postForm #controlsContainer #profilePicSecondaryControlsContainer, #postForm #controlsContainer #primaryControlsContainer, #postForm #controlsContainer #profilePicPrimaryControlsContainer, #postForm #profilePicControlsContainer #secondaryControlsContainer, #postForm #profilePicControlsContainer #profilePicSecondaryControlsContainer, #postForm #profilePicControlsContainer #primaryControlsContainer, #postForm #profilePicControlsContainer #profilePicPrimaryControlsContainer, #profilePicForm #controlsContainer #secondaryControlsContainer, #profilePicForm #controlsContainer #profilePicSecondaryControlsContainer, #profilePicForm #controlsContainer #primaryControlsContainer, #profilePicForm #controlsContainer #profilePicPrimaryControlsContainer, #profilePicForm #profilePicControlsContainer #secondaryControlsContainer, #profilePicForm #profilePicControlsContainer #profilePicSecondaryControlsContainer, #profilePicForm #profilePicControlsContainer #primaryControlsContainer, #profilePicForm #profilePicControlsContainer #profilePicPrimaryControlsContainer {
+    padding: 5px; }
+    #postForm #controlsContainer #secondaryControlsContainer div, #postForm #controlsContainer #secondaryControlsContainer button, #postForm #controlsContainer #profilePicSecondaryControlsContainer div, #postForm #controlsContainer #profilePicSecondaryControlsContainer button, #postForm #controlsContainer #primaryControlsContainer div, #postForm #controlsContainer #primaryControlsContainer button, #postForm #controlsContainer #profilePicPrimaryControlsContainer div, #postForm #controlsContainer #profilePicPrimaryControlsContainer button, #postForm #profilePicControlsContainer #secondaryControlsContainer div, #postForm #profilePicControlsContainer #secondaryControlsContainer button, #postForm #profilePicControlsContainer #profilePicSecondaryControlsContainer div, #postForm #profilePicControlsContainer #profilePicSecondaryControlsContainer button, #postForm #profilePicControlsContainer #primaryControlsContainer div, #postForm #profilePicControlsContainer #primaryControlsContainer button, #postForm #profilePicControlsContainer #profilePicPrimaryControlsContainer div, #postForm #profilePicControlsContainer #profilePicPrimaryControlsContainer button, #profilePicForm #controlsContainer #secondaryControlsContainer div, #profilePicForm #controlsContainer #secondaryControlsContainer button, #profilePicForm #controlsContainer #profilePicSecondaryControlsContainer div, #profilePicForm #controlsContainer #profilePicSecondaryControlsContainer button, #profilePicForm #controlsContainer #primaryControlsContainer div, #profilePicForm #controlsContainer #primaryControlsContainer button, #profilePicForm #controlsContainer #profilePicPrimaryControlsContainer div, #profilePicForm #controlsContainer #profilePicPrimaryControlsContainer button, #profilePicForm #profilePicControlsContainer #secondaryControlsContainer div, #profilePicForm #profilePicControlsContainer #secondaryControlsContainer button, #profilePicForm #profilePicControlsContainer #profilePicSecondaryControlsContainer div, #profilePicForm #profilePicControlsContainer #profilePicSecondaryControlsContainer button, #profilePicForm #profilePicControlsContainer #primaryControlsContainer div, #profilePicForm #profilePicControlsContainer #primaryControlsContainer button, #profilePicForm #profilePicControlsContainer #profilePicPrimaryControlsContainer div, #profilePicForm #profilePicControlsContainer #profilePicPrimaryControlsContainer button {
+      float: left;
+      margin: 5px; }
+    #postForm #controlsContainer #secondaryControlsContainer:before, #postForm #controlsContainer #secondaryControlsContainer:after, #postForm #controlsContainer #profilePicSecondaryControlsContainer:before, #postForm #controlsContainer #profilePicSecondaryControlsContainer:after, #postForm #controlsContainer #primaryControlsContainer:before, #postForm #controlsContainer #primaryControlsContainer:after, #postForm #controlsContainer #profilePicPrimaryControlsContainer:before, #postForm #controlsContainer #profilePicPrimaryControlsContainer:after, #postForm #profilePicControlsContainer #secondaryControlsContainer:before, #postForm #profilePicControlsContainer #secondaryControlsContainer:after, #postForm #profilePicControlsContainer #profilePicSecondaryControlsContainer:before, #postForm #profilePicControlsContainer #profilePicSecondaryControlsContainer:after, #postForm #profilePicControlsContainer #primaryControlsContainer:before, #postForm #profilePicControlsContainer #primaryControlsContainer:after, #postForm #profilePicControlsContainer #profilePicPrimaryControlsContainer:before, #postForm #profilePicControlsContainer #profilePicPrimaryControlsContainer:after, #profilePicForm #controlsContainer #secondaryControlsContainer:before, #profilePicForm #controlsContainer #secondaryControlsContainer:after, #profilePicForm #controlsContainer #profilePicSecondaryControlsContainer:before, #profilePicForm #controlsContainer #profilePicSecondaryControlsContainer:after, #profilePicForm #controlsContainer #primaryControlsContainer:before, #profilePicForm #controlsContainer #primaryControlsContainer:after, #profilePicForm #controlsContainer #profilePicPrimaryControlsContainer:before, #profilePicForm #controlsContainer #profilePicPrimaryControlsContainer:after, #profilePicForm #profilePicControlsContainer #secondaryControlsContainer:before, #profilePicForm #profilePicControlsContainer #secondaryControlsContainer:after, #profilePicForm #profilePicControlsContainer #profilePicSecondaryControlsContainer:before, #profilePicForm #profilePicControlsContainer #profilePicSecondaryControlsContainer:after, #profilePicForm #profilePicControlsContainer #primaryControlsContainer:before, #profilePicForm #profilePicControlsContainer #primaryControlsContainer:after, #profilePicForm #profilePicControlsContainer #profilePicPrimaryControlsContainer:before, #profilePicForm #profilePicControlsContainer #profilePicPrimaryControlsContainer:after {
+      content: "";
+      display: table; }
+    #postForm #controlsContainer #secondaryControlsContainer:after, #postForm #controlsContainer #profilePicSecondaryControlsContainer:after, #postForm #controlsContainer #primaryControlsContainer:after, #postForm #controlsContainer #profilePicPrimaryControlsContainer:after, #postForm #profilePicControlsContainer #secondaryControlsContainer:after, #postForm #profilePicControlsContainer #profilePicSecondaryControlsContainer:after, #postForm #profilePicControlsContainer #primaryControlsContainer:after, #postForm #profilePicControlsContainer #profilePicPrimaryControlsContainer:after, #profilePicForm #controlsContainer #secondaryControlsContainer:after, #profilePicForm #controlsContainer #profilePicSecondaryControlsContainer:after, #profilePicForm #controlsContainer #primaryControlsContainer:after, #profilePicForm #controlsContainer #profilePicPrimaryControlsContainer:after, #profilePicForm #profilePicControlsContainer #secondaryControlsContainer:after, #profilePicForm #profilePicControlsContainer #profilePicSecondaryControlsContainer:after, #profilePicForm #profilePicControlsContainer #primaryControlsContainer:after, #profilePicForm #profilePicControlsContainer #profilePicPrimaryControlsContainer:after {
+      clear: both; }
+
+#postModal #canvasContainer, #postModal #profilePicCanvasContainer, #profilePicModal #canvasContainer, #profilePicModal #profilePicCanvasContainer {
+  display: block;
+  margin: auto;
+  width: 452px;
+  height: 302px; }
+
+.alignFonts a {
+  text-decoration: none; }
+.alignFonts div {
+  float: right; }
+  .alignFonts div label {
+    margin-left: 10px; }
+
+/*# sourceMappingURL=leftNav.css.map */

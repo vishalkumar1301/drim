@@ -1,0 +1,177 @@
+#profileContainer {
+  width: 100%;
+  height: 400px;
+  #wallPaintingContainer {
+    width: 100%;
+    background-color: lightgray;
+    overflow: hidden;
+    img {
+        height: 100%;
+    }
+  }
+  #profileContainerFooter {
+    text-align: center;
+    position: relative;
+    height: 50px;
+    #profileImage {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: absolute;
+      top: -100px;
+      border: 5px solid white;
+      background-color: gray;
+      overflow: hidden;
+      img{
+          height: 100%;
+      }
+    }
+    #profileContainerFooterContainer {
+      .btn-info, .btn-success, #profileEditing {
+        position: relative;
+        top: -5px;
+      }
+      .btn-info {
+        background-color: #2896D3 !important;
+      }
+      #profileContainerFooterContainerLeft {
+        #footerUsername {
+          border: 2px solid #2896D3;
+          padding: 4px;
+          position: relative;
+          top: -4px;
+          // padding-right: 8px;
+          padding-left: 8px;
+          width: 180px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-left: -10px;
+        }
+        .profileContainerFooterContainerLeftElements {
+          float: left;
+          margin-right: 10px;
+        }
+        #following {
+          position: relative;
+          top: -5px;
+          left: -5px;
+        }
+      }
+      #profileContainerFooterContainerRight {
+        .dropdown-menu{
+          .dropdown-item{
+            cursor: default;
+          }
+        }
+        .profileContainerFooterContainerRightElements {
+          float: right;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+#profilePicForm {
+  #profilePicTextArea {
+    width: 450px;
+    display: block;
+    margin: auto;
+    border: none;
+  }
+
+  #profilePicCanvasContainer {
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    // box-shadow: $boxShadow;
+  }
+  #profilePicControlsContainer {
+    width: 450px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    #profilePicSecondaryControlsContainer, #profilePicPrimaryControlsContainer {
+      padding: 5px;
+      div,button {
+        float: left;
+        margin: 5px;
+      }
+      &:before,
+      &:after {
+          content: "";
+          display: table;
+      }
+      &:after {
+          clear: both;
+      }
+    }
+  }
+}
+#postModal {
+  #canvasContainer {
+    display: block;
+    margin: auto;
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+  }
+}
+#profilePicModal {
+    #profilePicCanvasContainer {
+        display: block;
+        margin: auto;
+        width: 400px;
+        height: 300px;
+        overflow: hidden;
+    }
+}
+#wallPaintingForm {
+  #wallPaintingTextArea {
+    width: 760px;
+    display: block;
+    margin: auto;
+    border: none;
+  }
+
+  #wallPaintingCanvasContainer {
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    // box-shadow: $boxShadow;
+  }
+  #wallPaintingControlsContainer {
+    width: 760px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    #wallPaintingSecondaryControlsContainer, #wallPaintingPrimaryControlsContainer {
+      padding: 5px;
+      div,button {
+        float: left;
+        margin: 5px;
+      }
+      &:before,
+      &:after {
+          content: "";
+          display: table;
+      }
+      &:after {
+          clear: both;
+      }
+    }
+  }
+}
+#wallPaintingModal, #wallPaintingModal {
+  #wallPaintingCanvasContainer, #wallPaintingCanvasContainer {
+    display: block;
+    margin: auto;
+    width: 760px;
+    height: 250px;
+    overflow: hidden;
+  }
+}
+// #aboutContainer {
+//   width: 100%;
+//   height: 300px;
+//   background: white;
+//   margin-top: 10px;
+//   box-shadow: 0px 0px 5px #dadada;
+// }

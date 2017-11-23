@@ -1,0 +1,82 @@
+$boxShadow : 0px 0px 5px #dadada;
+#leftNavContainer {
+  width: 100%;
+  #leftNav {
+
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: $boxShadow;
+    padding: 10px;
+    .leftNavElements {
+      // border: 5px solid white;
+      box-sizing: border-box;
+      width: 100%;
+      padding-top: 5px;
+      margin-top: 10px;
+      &:hover {
+         border-bottom: 1px solid #d000d0;
+      }
+    }
+  }
+}
+#postForm, #profilePicForm {
+  #postTextArea, #profilePicTextArea {
+    width: 450px;
+    display: block;
+    margin: auto;
+    border: none;
+  }
+  #canvasContainer, #profilePicCanvasContainer {
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    // box-shadow: $boxShadow;
+  }
+  #controlsContainer, #profilePicControlsContainer {
+    width: 450px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    #secondaryControlsContainer, #profilePicSecondaryControlsContainer, #primaryControlsContainer, #profilePicPrimaryControlsContainer {
+      padding: 5px;
+      div,button {
+        float: left;
+        margin: 5px;
+      }
+      &:before,
+      &:after {
+          content: "";
+          display: table;
+      }
+      &:after {
+          clear: both;
+      }
+    }
+  }
+}
+#postModal, #profilePicModal {
+  #canvasContainer, #profilePicCanvasContainer {
+    display: block;
+    margin: auto;
+    width: 452px;
+    height: 302px;
+  }
+}
+.alignFonts{
+  a{
+    text-decoration: none;
+  }
+  div {
+    float: right;
+    label{
+      margin-left: 10px;
+    }
+
+  }
+}

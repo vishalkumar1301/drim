@@ -1,0 +1,87 @@
+#post-container {
+    .card-modified {
+        width: 490px;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 5px #dadada;
+        .card-header{
+            height: 75px;
+            border-bottom: 1px solid #d000d0;
+            background-color: white;
+            .postProfilePicContainer {
+                width: 50px;
+                height: 50px;
+                overflow: hidden;
+                border-radius: 50%;
+                border: 1px solid #d000d0;
+                float: left;
+                .postProfilePic {
+                    height: 100%;
+                }
+            }
+            .postUsername {
+                display: block;
+                position: relative;
+                left: 15px;
+                font-size: 18px;
+                top: 0px;
+            }
+            .post-time {
+                position: relative;
+                left: 15px;
+                font-size: 10px;
+                top: -10px;
+            }
+        }
+        .card-footer{
+            background-color: white;
+            .postLikeContainer {
+                .like, .unlike {
+                    color: #d000d0;
+                    cursor: pointer;
+                    padding-left: 2px;
+                    padding-right: 2px;
+                    margin-right: 10px;
+                    &:hover {
+                        color: #2896D3;
+                    }
+                }
+            }
+            .commentsContainer {
+                margin-left: 20px;
+                .comment {
+                    cursor: pointer;
+                    color: #d000d0;
+                    &:hover {
+                        color: #2896D3;
+                    }
+                }
+                .noOfComments {
+                    border: 1px solid #d000d0;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    margin-left: 5px;
+                    display: inline-block;
+                    text-align: center;
+                    position: relative;
+                    top: 3px;
+                    label {
+                        position: relative;
+                        top: -3px;
+                    }
+                }
+            }
+        }
+        .card-block-modified {
+            h6 {
+                padding: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            img {
+                width: 100%;
+            }
+            padding: 0px;
+        }
+    }
+}

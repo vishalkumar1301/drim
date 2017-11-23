@@ -1,0 +1,58 @@
+html, body {
+  min-height: 100%; }
+
+body {
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 60px;
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%; }
+
+#signinFormContainer, #signupFormContainer {
+  width: 400px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 24px; }
+  #signinFormContainer #signinForm, #signinFormContainer #signupForm, #signupFormContainer #signinForm, #signupFormContainer #signupForm {
+    padding: 10px; }
+    #signinFormContainer #signinForm div, #signinFormContainer #signupForm div, #signupFormContainer #signinForm div, #signupFormContainer #signupForm div {
+      margin-top: 10px;
+      font-family: sans-serif;
+      font-size: 18px; }
+    #signinFormContainer #signinForm input, #signinFormContainer #signupForm input, #signupFormContainer #signinForm input, #signupFormContainer #signupForm input {
+      font-family: sans-serif;
+      font-size: 16px;
+      padding: 10px;
+      width: 100%;
+      margin: auto;
+      margin-bottom: 10px;
+      box-sizing: border-box; }
+    #signinFormContainer #signinForm #signinSubmitButton, #signinFormContainer #signinForm #signupSubmitButton, #signinFormContainer #signupForm #signinSubmitButton, #signinFormContainer #signupForm #signupSubmitButton, #signupFormContainer #signinForm #signinSubmitButton, #signupFormContainer #signinForm #signupSubmitButton, #signupFormContainer #signupForm #signinSubmitButton, #signupFormContainer #signupForm #signupSubmitButton {
+      margin-top: 20px;
+      background-color: #262626;
+      border: 1px solid #af0000;
+      color: red;
+      cursor: pointer;
+      font-size: 18px; }
+
+#message {
+  width: 50%;
+  margin: auto;
+  text-align: center; }
+
+.message-modify {
+  padding: 10px;
+  border: 1px solid #af0000;
+  background-color: #ffcdcd;
+  box-shadow: inset 0px 0px 40px #f9c7c7;
+  font-family: sans-serif;
+  font-size: 16px;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=index.css.map */

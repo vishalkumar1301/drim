@@ -1,0 +1,122 @@
+#profileContainer {
+  width: 100%;
+  height: 400px; }
+  #profileContainer #wallPaintingContainer {
+    width: 100%;
+    background-color: lightgray;
+    overflow: hidden; }
+    #profileContainer #wallPaintingContainer img {
+      height: 100%; }
+  #profileContainer #profileContainerFooter {
+    text-align: center;
+    position: relative;
+    height: 50px; }
+    #profileContainer #profileContainerFooter #profileImage {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: absolute;
+      top: -100px;
+      border: 5px solid white;
+      background-color: gray;
+      overflow: hidden; }
+      #profileContainer #profileContainerFooter #profileImage img {
+        height: 100%; }
+    #profileContainer #profileContainerFooter #profileContainerFooterContainer .btn-info, #profileContainer #profileContainerFooter #profileContainerFooterContainer .btn-success, #profileContainer #profileContainerFooter #profileContainerFooterContainer #profileEditing {
+      position: relative;
+      top: -5px; }
+    #profileContainer #profileContainerFooter #profileContainerFooterContainer .btn-info {
+      background-color: #2896D3 !important; }
+    #profileContainer #profileContainerFooter #profileContainerFooterContainer #profileContainerFooterContainerLeft #footerUsername {
+      border: 2px solid #2896D3;
+      padding: 4px;
+      position: relative;
+      top: -4px;
+      padding-left: 8px;
+      width: 180px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-left: -10px; }
+    #profileContainer #profileContainerFooter #profileContainerFooterContainer #profileContainerFooterContainerLeft .profileContainerFooterContainerLeftElements {
+      float: left;
+      margin-right: 10px; }
+    #profileContainer #profileContainerFooter #profileContainerFooterContainer #profileContainerFooterContainerLeft #following {
+      position: relative;
+      top: -5px;
+      left: -5px; }
+    #profileContainer #profileContainerFooter #profileContainerFooterContainer #profileContainerFooterContainerRight .dropdown-menu .dropdown-item {
+      cursor: default; }
+    #profileContainer #profileContainerFooter #profileContainerFooterContainer #profileContainerFooterContainerRight .profileContainerFooterContainerRightElements {
+      float: right;
+      margin-left: 10px; }
+
+#profilePicForm #profilePicTextArea {
+  width: 450px;
+  display: block;
+  margin: auto;
+  border: none; }
+#profilePicForm #profilePicCanvasContainer {
+  border: 1px solid #dadada;
+  border-radius: 5px; }
+#profilePicForm #profilePicControlsContainer {
+  width: 450px;
+  display: block;
+  margin: auto;
+  margin-top: 15px; }
+  #profilePicForm #profilePicControlsContainer #profilePicSecondaryControlsContainer, #profilePicForm #profilePicControlsContainer #profilePicPrimaryControlsContainer {
+    padding: 5px; }
+    #profilePicForm #profilePicControlsContainer #profilePicSecondaryControlsContainer div, #profilePicForm #profilePicControlsContainer #profilePicSecondaryControlsContainer button, #profilePicForm #profilePicControlsContainer #profilePicPrimaryControlsContainer div, #profilePicForm #profilePicControlsContainer #profilePicPrimaryControlsContainer button {
+      float: left;
+      margin: 5px; }
+    #profilePicForm #profilePicControlsContainer #profilePicSecondaryControlsContainer:before, #profilePicForm #profilePicControlsContainer #profilePicSecondaryControlsContainer:after, #profilePicForm #profilePicControlsContainer #profilePicPrimaryControlsContainer:before, #profilePicForm #profilePicControlsContainer #profilePicPrimaryControlsContainer:after {
+      content: "";
+      display: table; }
+    #profilePicForm #profilePicControlsContainer #profilePicSecondaryControlsContainer:after, #profilePicForm #profilePicControlsContainer #profilePicPrimaryControlsContainer:after {
+      clear: both; }
+
+#postModal #canvasContainer {
+  display: block;
+  margin: auto;
+  width: 450px;
+  height: 300px;
+  overflow: hidden; }
+
+#profilePicModal #profilePicCanvasContainer {
+  display: block;
+  margin: auto;
+  width: 400px;
+  height: 300px;
+  overflow: hidden; }
+
+#wallPaintingForm #wallPaintingTextArea {
+  width: 760px;
+  display: block;
+  margin: auto;
+  border: none; }
+#wallPaintingForm #wallPaintingCanvasContainer {
+  border: 1px solid #dadada;
+  border-radius: 5px; }
+#wallPaintingForm #wallPaintingControlsContainer {
+  width: 760px;
+  display: block;
+  margin: auto;
+  margin-top: 15px; }
+  #wallPaintingForm #wallPaintingControlsContainer #wallPaintingSecondaryControlsContainer, #wallPaintingForm #wallPaintingControlsContainer #wallPaintingPrimaryControlsContainer {
+    padding: 5px; }
+    #wallPaintingForm #wallPaintingControlsContainer #wallPaintingSecondaryControlsContainer div, #wallPaintingForm #wallPaintingControlsContainer #wallPaintingSecondaryControlsContainer button, #wallPaintingForm #wallPaintingControlsContainer #wallPaintingPrimaryControlsContainer div, #wallPaintingForm #wallPaintingControlsContainer #wallPaintingPrimaryControlsContainer button {
+      float: left;
+      margin: 5px; }
+    #wallPaintingForm #wallPaintingControlsContainer #wallPaintingSecondaryControlsContainer:before, #wallPaintingForm #wallPaintingControlsContainer #wallPaintingSecondaryControlsContainer:after, #wallPaintingForm #wallPaintingControlsContainer #wallPaintingPrimaryControlsContainer:before, #wallPaintingForm #wallPaintingControlsContainer #wallPaintingPrimaryControlsContainer:after {
+      content: "";
+      display: table; }
+    #wallPaintingForm #wallPaintingControlsContainer #wallPaintingSecondaryControlsContainer:after, #wallPaintingForm #wallPaintingControlsContainer #wallPaintingPrimaryControlsContainer:after {
+      clear: both; }
+
+#wallPaintingModal #wallPaintingCanvasContainer, #wallPaintingModal #wallPaintingCanvasContainer, #wallPaintingModal #wallPaintingCanvasContainer, #wallPaintingModal #wallPaintingCanvasContainer {
+  display: block;
+  margin: auto;
+  width: 760px;
+  height: 250px;
+  overflow: hidden; }
+
+/*# sourceMappingURL=home.css.map */

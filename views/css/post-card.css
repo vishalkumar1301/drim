@@ -1,0 +1,68 @@
+#post-container .card-modified {
+  width: 490px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 5px #dadada; }
+  #post-container .card-modified .card-header {
+    height: 75px;
+    border-bottom: 1px solid #d000d0;
+    background-color: white; }
+    #post-container .card-modified .card-header .postProfilePicContainer {
+      width: 50px;
+      height: 50px;
+      overflow: hidden;
+      border-radius: 50%;
+      border: 1px solid #d000d0;
+      float: left; }
+      #post-container .card-modified .card-header .postProfilePicContainer .postProfilePic {
+        height: 100%; }
+    #post-container .card-modified .card-header .postUsername {
+      display: block;
+      position: relative;
+      left: 15px;
+      font-size: 18px;
+      top: 0px; }
+    #post-container .card-modified .card-header .post-time {
+      position: relative;
+      left: 15px;
+      font-size: 10px;
+      top: -10px; }
+  #post-container .card-modified .card-footer {
+    background-color: white; }
+    #post-container .card-modified .card-footer .postLikeContainer .like, #post-container .card-modified .card-footer .postLikeContainer .unlike {
+      color: #d000d0;
+      cursor: pointer;
+      padding-left: 2px;
+      padding-right: 2px;
+      margin-right: 10px; }
+      #post-container .card-modified .card-footer .postLikeContainer .like:hover, #post-container .card-modified .card-footer .postLikeContainer .unlike:hover {
+        color: #2896D3; }
+    #post-container .card-modified .card-footer .commentsContainer {
+      margin-left: 20px; }
+      #post-container .card-modified .card-footer .commentsContainer .comment {
+        cursor: pointer;
+        color: #d000d0; }
+        #post-container .card-modified .card-footer .commentsContainer .comment:hover {
+          color: #2896D3; }
+      #post-container .card-modified .card-footer .commentsContainer .noOfComments {
+        border: 1px solid #d000d0;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-left: 5px;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        top: 3px; }
+        #post-container .card-modified .card-footer .commentsContainer .noOfComments label {
+          position: relative;
+          top: -3px; }
+  #post-container .card-modified .card-block-modified {
+    padding: 0px; }
+    #post-container .card-modified .card-block-modified h6 {
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 20px; }
+    #post-container .card-modified .card-block-modified img {
+      width: 100%; }
+
+/*# sourceMappingURL=post-card.css.map */

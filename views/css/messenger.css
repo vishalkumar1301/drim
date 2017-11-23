@@ -1,0 +1,67 @@
+#messenger {
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 400px;
+  margin-top: 50px;
+  background-color: white; }
+  #messenger #messengerSearchBar {
+    width: 100%;
+    height: 40px;
+    background-color: #f0efef;
+    border: 1px solid #d0d0d0; }
+  #messenger #messegedPeopleListContainer {
+    width: 180px;
+    float: left;
+    height: 360px;
+    overflow-y: auto;
+    background-color: #f0efef;
+    border: 1px solid #d0d0d0; }
+    #messenger #messegedPeopleListContainer .leftListUserContainer {
+      width: 100%;
+      height: 50px;
+      display: block;
+      margin-top: 5px;
+      border-bottom: 1px solid lightgray;
+      cursor: pointer; }
+      #messenger #messegedPeopleListContainer .leftListUserContainer:hover {
+        background-color: white; }
+      #messenger #messegedPeopleListContainer .leftListUserContainer .leftListProfilePicContainer {
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+        border-radius: 50%;
+        float: left;
+        margin-left: 5px;
+        margin-top: 5px;
+        border: 1px solid #d000d0; }
+        #messenger #messegedPeopleListContainer .leftListUserContainer .leftListProfilePicContainer .leftListProfilePic {
+          height: 100%; }
+      #messenger #messegedPeopleListContainer .leftListUserContainer .restContentContainer {
+        float: left; }
+        #messenger #messegedPeopleListContainer .leftListUserContainer .restContentContainer .anotherUserUsername {
+          display: block;
+          font-size: 14px;
+          position: relative;
+          left: 5px; }
+        #messenger #messegedPeopleListContainer .leftListUserContainer .restContentContainer .leftListMessageContainer {
+          display: block;
+          position: relative;
+          left: 10px; }
+          #messenger #messegedPeopleListContainer .leftListUserContainer .restContentContainer .leftListMessageContainer i {
+            float: left;
+            position: relative;
+            top: 3px; }
+          #messenger #messegedPeopleListContainer .leftListUserContainer .restContentContainer .leftListMessageContainer .leftListMessage {
+            float: left;
+            position: relative;
+            top: -2px;
+            left: 5px;
+            font-size: 14px; }
+  #messenger #chatContainer {
+    width: 320px;
+    height: 360px;
+    float: left;
+    display: inline-block; }
+
+/*# sourceMappingURL=messenger.css.map */
